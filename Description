@@ -1,1 +1,17 @@
+Package: Wang
 
+Title: R Package Overview (Test)
+
+Version: 0.1.0
+
+Authors@R: “Andrew Wang <AndrewWang@usf.edu> [aut, cre]”
+
+Description: 
+
+Depends: install.package(“Wang”, dependencies = TRUE)
+
+library(“Wang”
+
+License: CC0
+
+LazyData: true
