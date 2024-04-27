@@ -1,4 +1,3 @@
-# Markdown-Example
 # Package: Wang
 
 # Title
