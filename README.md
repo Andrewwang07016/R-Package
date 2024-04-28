@@ -1,7 +1,7 @@
-# Package: Wang
+# Package: wpack
 
 # Title
-R Package Overview (Test)
+R Package Overview
 
 # Version
 0.1.0
