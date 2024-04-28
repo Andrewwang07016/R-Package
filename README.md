@@ -1,7 +1,7 @@
 # Package: wpack
 
 # Title
-R Package Overview
+R Package wpack
 
 # Version
 0.1.0
