@@ -1,6 +1,6 @@
-Package: Wang
+Package: wpack
 
-Title: R Package Overview (Test)
+Title: R Package Overview
 
 Version: 0.1.0
 
@@ -10,7 +10,7 @@ Description:
 
 Depends: install.package(“Wang”, dependencies = TRUE)
 
-library(“Wang”
+library(“wpack")
 
 License: CC0
 
