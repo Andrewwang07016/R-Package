@@ -18,8 +18,6 @@ library(devtools)
 library(roxygen2)
 Loading required package: wpack
 
-
-
 @param helpw
 @return
 @examples
