@@ -1,0 +1,28 @@
+---
+title: 'R Package'
+author: "Andrew Wang"
+date: "4/15/2024"
+output: html_document
+---
+
+---
+
+## Instructions
+## Creating a calculation of shortcuts for calculations
+
+---
+
+### ***Load the libraries***
+Add the necessary libraries
+
+```{r}
+library(DAAG)
+library(stringr)
+library(reshape2)
+library(ggplot2)
+```
+
+
+
+
+
