@@ -15,12 +15,11 @@ output: html_document
 ### ***Load the libraries***
 Add the necessary libraries
 
-```{r}
-library(DAAG)
-library(stringr)
-library(reshape2)
-library(ggplot2)
-```
+
+bmi_calc <- function(weight, height) {
+  bmi <- weight / (height^2)
+  return(bmi)
+}
 
 
 
