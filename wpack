@@ -14,14 +14,79 @@ output: html_document
 
 ### ***Load the libraries***
 Add the necessary libraries
+library(devtools)
+library(roxygen2)
+Loading required package: wpack
 
 
-bmi_calc <- function(weight, height) {
+
+@param helpw
+@return
+@examples
+help(wpack)
+@export
+
+wpack <- function(helpw)
+ switch(
+    helpw,
+    wpack = "a package that will output a discription of the package, and other various calculations"
+    calcbmi = "a formula used to calculate body mass index"
+    calcfactorial = "facorial of the number"
+    airlinecosts = "total costs of the airline"
+    strdvector = "standardizes values using z-score"
+    normvector = "normalize value using min and max"
+    mpgbycylinders = "calculates the mpg based on cylinders of the car from data mtcars"
+    
+    
+  )
+}
+
+Function 1:
+
+calcbmi <- function(weight, height) {
   bmi <- weight / (height^2)
   return(bmi)
 }
 
+Function 2:
 
+calcfactorial <- function(n) {
+  if (n < 0) {
+    stop("cannot factorial negative numbers")
+  } else if (n == 0) {
+    return(1)
+  } else {
+    return(n * calcfactorial(n - 1))
+  }
+}
 
+Function 3:
 
+airlinecosts <- function(fuelcost, maintenancecost, laborcost, othercosts) { totalcosts <- fuelcost + maintenancecost + laborcost + othercosts return(totalcosts) }
 
+Function 4:
+
+strdvector <- function(x) {
+  meanx <- mean(x)
+  sdx <- sd(x)
+  strd <- (x - meanx) / sdx
+  return(strd)
+}
+
+Function 5:
+
+normvector <- function(x) {
+  minx <- min(x)
+  maxx <- max(x)
+  norm <- (x - minx) / (maxx - minx)
+  return(norm)
+}
+
+Function 6:
+
+mpgbycylinders <- function(num_cylinders) {
+  require(datasets) 
+  mtcarssubset <- subset(mtcars, cyl == num_cylinders)
+  avgmpg <- mean(mtcarssubset$mpg)
+  return(avgmpg)
+}
