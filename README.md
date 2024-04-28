@@ -10,10 +10,10 @@ R Package Overview
 - Andrew Wang <AndrewWang@usf.edu> (aut, cre)
 
 # Description
-
+This package will output a discription of the package, and other various calculations
 
 # Depends
-- install.package("Wang", dependencies = TRUE)
+- install.package("wpack", dependencies = TRUE)
 
 # License
 CC0
